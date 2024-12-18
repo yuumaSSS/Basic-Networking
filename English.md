@@ -1,4 +1,4 @@
-# Basic-Networking (English)
+# Networking (English)
 "A network is like communication between neighbors, which has many emotions. Sometimes harmonious, happy, and peaceful. But it can also be a source of commotion and chaos, with envy and jealousy as the root cause."
 
 +yuumaSSS+
