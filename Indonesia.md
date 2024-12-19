@@ -92,3 +92,12 @@ Untuk memahami lebih sederhana dan mudah diingat, kamu bisa mengandaikannya sepe
 - SSH
 
   SSH (Secure Shell) adalah sebuah protokol jaringan kriptografi untuk komunikasi data yang aman, login dan eksekusi perintah jarak jauh, serta layanan jaringan lainnya antara dua jaringan komputer.
+
+## Protokol Jaringan Transport Layer
+- TCP
+
+  TCP (Transmission Control Protocol) adalah protokol yang connection-oriented yaitu berorientasi koneksi. TCP memastikan bisa membuat koneksi ke perangkat penerima jika memungkinkan. TCP memastikan packet sampai pada penerima, jika belum sampai TCP tidak akan memutus koneksi kecuali terjadi kesalahan yang tidak dapat dikendalikan. Pertukaran informasi pada TCP dinamakan three-way handshake yaitu pengirim mengirim segment SYN (Synchronize), lalu penerima mengembalikan segment SYN/ACK (Synchronize/Acknowledge), terakhir pengirim akan mengirim ACK pada penerima.
+
+- UDP
+
+  UDP (User Datagram Protocol) adalah protokol yang connectionless yaitu tidak berorientasi. UDP tidak memverifikasi koneksi antara komputer pengirim dan komputer penerima. Aplikasi yang menggunakan UDP memiliki prinsip fire and forget, artinya UDP tidak peduli apakah packet benar-benar sampai atau tidak. Akan tetapi, hal ini menguntungkan bagi aplikasi yang membutuhkan protokol cepat seperti aplikasi streaming.
